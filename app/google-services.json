@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "717077278242",
+    "firebase_url": "https://recipes-1586b.firebaseio.com",
+    "project_id": "recipes-1586b",
+    "storage_bucket": "recipes-1586b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717077278242:android:f9230aa82faa5e20",
+        "android_client_info": {
+          "package_name": "com.example.recipes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717077278242-9qludh16ojokd6rpmjt4ec9eudcmuahf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.recipes",
+            "certificate_hash": "c4c9fdc9c9aa5b5ffb996727176dfe35d1265632"
+          }
+        },
+        {
+          "client_id": "717077278242-6jbejgekj50do7pcq4igdaf8d97357qe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWTrMRRMYQHn_RVhZz4PTei2bag12xFt0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717077278242-6jbejgekj50do7pcq4igdaf8d97357qe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

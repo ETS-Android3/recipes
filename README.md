@@ -30,7 +30,7 @@ This is an android app that allows the user to view food recipes organized in ca
 
 # Screenshots
 
-| ![<img src="/readme/4sign.jpg"](/readme/1.home.jpg)     | ![<img src="/readme/5main.jpg"](/readme/2.cats.jpg)   | ![<img src="/readme/6search.jpg"](/readme/3.recipe.jpg) |
+| ![<img src="/readme/1.home.jpg"](/readme/1.home.jpg)     | ![<img src="/readme/2.cats.jpg"](/readme/2.cats.jpg)   | ![<img src="/readme/3.recipe.jpg"](/readme/3.recipe.jpg) |
 
 # Known bugs
 * None at the moment

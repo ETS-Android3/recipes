@@ -22,6 +22,7 @@ import com.example.recipes.models.Meals;
 import com.example.recipes.ui.LoginActivity;
 import com.example.recipes.ui.category.CategoryActivity;
 import com.example.recipes.ui.detail.DetailActivity;
+import com.example.recipes.ui.search.SearchActivity;
 import com.google.firebase.auth.FirebaseAuth;
 
 import java.io.Serializable;
@@ -30,7 +31,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class HomeActivity extends AppCompatActivity implements HomeView {
+public class HomeActivity extends AppCompatActivity implements HomeView{
 
     public static final String EXTRA_CATEGORY = "category";
     public static final String EXTRA_POSITION = "position";
@@ -40,6 +41,8 @@ public class HomeActivity extends AppCompatActivity implements HomeView {
     ViewPager viewPagerMeal;
     @BindView(R.id.recyclerCategory)
     RecyclerView recyclerViewCategory;
+    @BindView(R.id.searchFood) TextView searchFood;
+
 
     HomePresenter presenter;
 
@@ -52,6 +55,8 @@ public class HomeActivity extends AppCompatActivity implements HomeView {
         presenter = new HomePresenter(this);
         presenter.getMeals();
         presenter.getCategories();
+
+//        searchFood.setOnClickListener(this);
     }
 
     @Override
@@ -130,4 +135,12 @@ public class HomeActivity extends AppCompatActivity implements HomeView {
     }
 
 
+//    @Override
+//    public void onClick(View v) {
+//
+//        if (v==searchFood){
+//            startActivity(new Intent(HomeActivity.this, SearchActivity.class));
+//        }
+//
+//    }
 }

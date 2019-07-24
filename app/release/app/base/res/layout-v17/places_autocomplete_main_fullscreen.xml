@@ -1,0 +1,81 @@
+
+’&
+9
+android*http://schemas.android.com/apk/res/android
+2
+app'http://schemas.android.com/apk/res-autoRelativeLayout"¢
+*http://schemas.android.com/apk/res/android
+background*@color/places_autocomplete_list_background"(Ô„23
+1†”ø)color/places_autocomplete_list_background"T
+*http://schemas.android.com/apk/res/androidlayoutDirectionlocale"(²‡„2:0"a
+*http://schemas.android.com/apk/res/androidlayout_heightmatch_parent"(õ„2:0ÿÿÿÿÿÿÿÿÿ"`
+*http://schemas.android.com/apk/res/androidlayout_widthmatch_parent"(ô„2:0ÿÿÿÿÿÿÿÿÿ"R
+*http://schemas.android.com/apk/res/androidtextDirectionlocale"(°‡„2:0*
+  *¿
+¶!android.support.v7.widget.Toolbar"©
+'http://schemas.android.com/apk/res-autocontentInsetEnd,@dimen/places_autocomplete_toolbar_inset_end"(¢Œø25
+3Ü˜ø+dimen/places_autocomplete_toolbar_inset_end"®
+'http://schemas.android.com/apk/res-autocontentInsetLeft.@dimen/places_autocomplete_toolbar_inset_start"(¤Œø27
+5İ˜ø-dimen/places_autocomplete_toolbar_inset_start"«
+'http://schemas.android.com/apk/res-autocontentInsetRight,@dimen/places_autocomplete_toolbar_inset_end"(¥Œø25
+3Ü˜ø+dimen/places_autocomplete_toolbar_inset_end"¯
+'http://schemas.android.com/apk/res-autocontentInsetStart.@dimen/places_autocomplete_toolbar_inset_start"(¦Œø27
+5İ˜ø-dimen/places_autocomplete_toolbar_inset_start"t
+*http://schemas.android.com/apk/res/android
+background?attr/colorPrimary"(Ô„2
+˜Œøattr/colorPrimary"‹
+*http://schemas.android.com/apk/res/androidid#@+id/places_autocomplete_action_bar"(Ğ„2+
+)œ ø!id/places_autocomplete_action_bar"a
+*http://schemas.android.com/apk/res/androidlayout_heightwrap_content"(õ„2:0şÿÿÿÿÿÿÿÿ"`
+*http://schemas.android.com/apk/res/androidlayout_widthmatch_parent"(ô„2:0ÿÿÿÿÿÿÿÿÿ"u
+*http://schemas.android.com/apk/res/android	minHeight?attr/actionBarSize"(À‚„2
+ƒ€Œøattr/actionBarSize*
+    *x
+pinclude"elayout&@layout/places_autocomplete_search_bar"2/
+-Î€¬ø%layout/places_autocomplete_search_bar*
+  >*
+  &*„
+ûView"¦
+*http://schemas.android.com/apk/res/android
+background,@drawable/places_autocomplete_toolbar_shadow"(Ô„25
+3—œø+drawable/places_autocomplete_toolbar_shadow"•
+*http://schemas.android.com/apk/res/androidlayout_below#@+id/places_autocomplete_action_bar"(…ƒ„2+
+)œ ø!id/places_autocomplete_action_bar"P
+*http://schemas.android.com/apk/res/androidlayout_height4dp"(õ„2:h"`
+*http://schemas.android.com/apk/res/androidlayout_widthmatch_parent"(ô„2:0ÿÿÿÿÿÿÿÿÿ*
+  *
+†&android.support.v7.widget.RecyclerView"
+*http://schemas.android.com/apk/res/androidid@+id/places_autocomplete_list" (Ğ„2%
+#£ øid/places_autocomplete_list"•
+*http://schemas.android.com/apk/res/androidlayout_below#@+id/places_autocomplete_action_bar" (…ƒ„2+
+)œ ø!id/places_autocomplete_action_bar"a
+*http://schemas.android.com/apk/res/androidlayout_heightmatch_parent" (õ„2:0ÿÿÿÿÿÿÿÿÿ"`
+*http://schemas.android.com/apk/res/androidlayout_widthmatch_parent" (ô„2:0ÿÿÿÿÿÿÿÿÿ *
+  %*â
+ÙRelativeLayout"W
+*http://schemas.android.com/apk/res/androidgravitycenter_horizontal"&(¯„2:8"
+*http://schemas.android.com/apk/res/androidid@+id/places_autocomplete_error"&(Ğ„2&
+$  øid/places_autocomplete_error"•
+*http://schemas.android.com/apk/res/androidlayout_below#@+id/places_autocomplete_action_bar"&(…ƒ„2+
+)œ ø!id/places_autocomplete_action_bar"a
+*http://schemas.android.com/apk/res/androidlayout_heightmatch_parent"&(õ„2:0ÿÿÿÿÿÿÿÿÿ"`
+*http://schemas.android.com/apk/res/androidlayout_widthmatch_parent"&(ô„2:0ÿÿÿÿÿÿÿÿÿ*
+    ,*ğ
+çLinearLayout"W
+*http://schemas.android.com/apk/res/androidgravitycenter_horizontal"-(¯„2:8"X
+*http://schemas.android.com/apk/res/androidlayout_centerInParenttrue"-(ƒ„2:@"a
+*http://schemas.android.com/apk/res/androidlayout_heightwrap_content"-(õ„2:0şÿÿÿÿÿÿÿÿ"`
+*http://schemas.android.com/apk/res/androidlayout_widthmatch_parent"-(ô„2:0ÿÿÿÿÿÿÿÿÿ"R
+*http://schemas.android.com/apk/res/androidorientationvertical"-(Ä„2:0*
+      3	*ß
+Ö	ImageView"Ÿ
+'http://schemas.android.com/apk/res-auto	srcCompat*@drawable/quantum_ic_cloud_off_vd_theme_24"4(ÇƒŒø23
+1œœø)drawable/quantum_ic_cloud_off_vd_theme_24"S
+*http://schemas.android.com/apk/res/androidlayout_height120dp"4(õ„2:hğ"R
+*http://schemas.android.com/apk/res/androidlayout_width192dp"4(ô„2:h€4*
+      7F*x
+pinclude"elayout&@layout/places_autocomplete_error_text"82/
+-Ç€¬ø%layout/places_autocomplete_error_text8*
+    8@-*
+  9&*	
+:

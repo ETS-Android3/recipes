@@ -15,8 +15,7 @@ import butterknife.ButterKnife;
 
 public class SplashActivity extends AppCompatActivity {
 
-    @BindView(R.id.splashText)
-    TextView splahText;
+
     @BindView(R.id.splashImage)
     ImageView splashImage;
 
@@ -27,7 +26,6 @@ public class SplashActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         Animation animation = AnimationUtils.loadAnimation(this, R.anim.transition);
-        splahText.startAnimation(animation);
         splashImage.startAnimation(animation);
         final Intent intent = new Intent(this, LoginActivity.class);
         Thread timer = new Thread(){

@@ -24,6 +24,11 @@
             android:screenOrientation="portrait"
             android:label="Category"/>
         <activity
+            android:name=".ui.search.SearchActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"
+            android:label="Search"/>
+        <activity
             android:name=".ui.detail.DetailActivity"
             android:theme="@style/AppTheme"/>
         <activity android:name=".ui.home.HomeActivity" android:theme="@style/Home"></activity>

@@ -29,8 +29,8 @@ This is an android app that allows the user to view food recipes organized in ca
 * Wait until the installation of APK is done the the app is ready for use.
 
 # Screenshots
-| ![<img src="/readme/1perm.jpg"](/readme/1.home.jpg)     | ![<img src="/readme/2perma.jpg"](/readme/2.cats.jpg) | ![<img src="/readme/3login.jpg"](/readme/3.recipe.jpg)   |
-|-------------------------------------------------------|-----------------------------------------------------|-------------------------------------------------------|                                                     |
+
+| ![<img src="/readme/4sign.jpg"](/readme/1.home.jpg)     | ![<img src="/readme/5main.jpg"](/readme/2.cats.jpg)   | ![<img src="/readme/6search.jpg"](/readme/3.recipe.jpg) |
 
 # Known bugs
 * None at the moment

@@ -1,5 +1,5 @@
 # EGEZA
-This is an android app that allows the user to view food recipes organized in categories. The user can also view instructional videos on YouTube and websites with instructions.
+This is an android app that allows the user to view food recipes organized in categories. The user can also view instructional videos on YouTube and websites with the instructions.
 
 # Contributors
 * Phil Kipkemboi(kipkemboiphil@gmail.com)
